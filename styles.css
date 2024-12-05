@@ -1,8 +1,84 @@
-/* FONT */
-/* font-family: 'Yanone Kaffeesatz', sans-serif; */
+/* Global Styles */
+body {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    /* Matches imported font */
+    background-color: #B4E4E6;
+    /* Light teal background */
+    margin: 0;
+    padding: 20px;
+    /* Add padding for aesthetics */
+    color: #453D3D;
+    /* General text color (dark brownish grey) */
+}
 
-/* COLORS */
-/* background color -> #B4E4E6 */
-/* text color -> #453D3D */
-/* button color -> #B32274 */
-/* button text color -> white */
+/* Heading Styles */
+h1 {
+    font-size: 36px;
+    /* Match the comp's heading size */
+    text-align: center;
+    /* Center align main heading */
+    margin-bottom: 40px;
+    /* Add space below the main heading */
+}
+
+h2 {
+    font-size: 24px;
+    /* Smaller subheading size */
+    color: #453D3D;
+    /* Dark text color */
+    margin: 20px 0 10px;
+    /* Add spacing around subheadings */
+}
+
+/* Paragraph Styles */
+p {
+    font-size: 16px;
+    /* Match comp's paragraph size */
+    line-height: 1.5;
+    /* Improve readability */
+    color: #453D3D;
+    /* Same as general text color */
+    margin-bottom: 30px;
+    /* Add space below each paragraph */
+}
+
+/* Image Styles */
+img {
+    width: 50px;
+    /* Set a uniform size for icons */
+    height: auto;
+    /* Maintain aspect ratio */
+    display: block;
+    /* Treat as block element for proper spacing */
+    margin: 0 auto 20px;
+    /* Center images and add spacing below */
+}
+
+/* Button Styles */
+button {
+    background-color: #B32274;
+    /* Bright pinkish-purple button */
+    color: white;
+    /* White text on button */
+    border: none;
+    /* Remove default border */
+    padding: 10px 20px;
+    /* Add padding for size */
+    border-radius: 5px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Large, clear button text */
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+    display: block;
+    /* Center button */
+    margin: 30px auto;
+    /* Center horizontally and add spacing */
+    transition: background-color 0.3s ease;
+    /* Smooth hover transition */
+}
+
+button:hover {
+    background-color: #9A1E62;
+    /* Slightly darker shade for hover */
+}
